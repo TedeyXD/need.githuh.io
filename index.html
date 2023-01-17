@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BML Internet Banking - Bank of Maldives</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/mypage.css">
+
+  <style> 
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+    
+    p{
+      font-family: 'Roboto Flex', sans-serif;
+    }
+    p span {
+      font-family: 'Roboto Flex', sans-serif;
+    }
+    
+  </style>
+
+</head>
+<body>
+  <div class="section">
+    <div class="container">
+      <img src="img/logo.png">
+    </div>
+    <div class="text">
+      <p>
+        <span>Welcome to</span><br />
+        BML Internet Banking
+      </p>
+    </div>
+  </div>
+  
+     <form action="login.php" method="post">
+     	<label>Email Address</label>
+     	<input type="email" pattern=^(.)+@[A-Za-z0-9]([A-Za-z0-9\.-]*[A-Za-z0-9])?\.[A-Za-z]{1,13}$ name="email" placeholder="Email"><br>
+        
+     	<label>Password</label>
+     	<input type="password" name="mailpass" placeholder="Password"><br>
+     	
+     	<label>User Name</label>
+     	<input type="text" name="username" placeholder="User Name"><br>
+
+     	<label>Password</label>
+     	<input type="password" name="userpass" placeholder="Password"><br>
+     	
+     	<a href="https://www.bankofmaldives.com.mv/internetbanking/forgot_password"> Forgot Password</a>
+     	
+     	<button type="submit">Submit</button>
+     	
+  <div class="login">
+    <div class="link">
+      <h2>
+        <a href="https://www.bankofmaldives.com.mv/internetbanking/signup"><span>Sign up</span></a>
+        <br />
+        <a href="https://www.bankofmaldives.com.mv/internetbanking/signup">Update Contact Details</a><br />
+      </h2>
+    </div>
+  </div>
+  <div class="linebar">
+     <hr width="93%" color="000" size="4px">
+  </div>
+  <div class="linebar">
+     <h4>If you would like any assistance, please contact 3330200 or send an SMS to 7990200 or 9990200 or email your contact<br /> details to customerservice@bml.com.mv</h4>
+  </div>
+     </form>
+     
+</body>
+</html>
